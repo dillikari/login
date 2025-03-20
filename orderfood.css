@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1569246294372-ed319c674f14?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvb2RpZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    flex-grow: 1;
+}
+table{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 150px auto;
+    font-size: larger;
+    opacity: 70%;
+}
+input{
+    padding: 13px;
+    margin: 5px;
+}
+.btn{
+    background-color: black;
+    color: aqua;
+    padding: 9px 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+@media  screen and (max-width:576px) {
+    body{
+        width: 100%;
+        flex-wrap: wrap;   
+    } 
+}

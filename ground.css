@@ -1,0 +1,47 @@
+body{
+  background-image: url(https://media.istockphoto.com/id/496520190/photo/waitress-and-family-at-cafe.webp?a=1&b=1&s=612x612&w=0&k=20&c=h62g92mXv8yGfzuftfIRzdu1RooLgUCoJKpLDNv6Re0=);
+  background-size: cover; 
+  flex-grow: 1;
+}
+.div1{
+  width: 400px;
+  background-color:chartreuse;
+  color: rgb(0, 0, 0); 
+  padding: 35px;
+  flex-grow: 1;
+  margin: 150px auto;
+  text-align: center;
+  opacity:calc(80%);
+  border-radius: 25px;
+}
+.id{
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 18px;
+  padding: 10px 18px;
+  border-radius: 13px;
+  border: none;
+}
+.btn{
+  width: 100%;
+  padding: 10px 19px;
+  border-radius: 20px;
+  background-color: rgb(50, 50, 219);
+  color: whitesmoke;
+  margin-top: 7px;
+}
+.para{
+  margin-bottom: 35px;
+}
+p{
+  margin-top: 25px;
+}
+@media screen and (max-width:576px) {
+     .div1{
+      width: auto;
+     }
+     body{
+     width:auto;
+    flex-wrap: wrap;
+     }
+}
